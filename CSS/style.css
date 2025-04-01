@@ -63,13 +63,14 @@ header{
     height: 300px;
     width: 100%;  
     margin-top: 30px; 
-}
- 
-.box{
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     flex-direction: column;
+}
+ 
+.box{
     background-color:#33333370;
     color: #fff;
     width: 35%;
